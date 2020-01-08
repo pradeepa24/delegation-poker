@@ -12,3 +12,40 @@
    align-items: center;
    width:80vw;
 }
+.delegation-experience{
+  width: 40vw;
+  text-align:center;
+}
+
+pre{
+  font-family:Helvetica;
+  color:rgba(0,0,0,0.5);
+  font-size:14px;
+}
+.delegation-objective{
+  color:rgba(0,0,0,0.5);
+  text-align:center;
+}
+.delegation-poker-rules, .delegation-play-steps,.delegation-experience p,
+ .poker-rule, #delegationBoard{
+  color:rgba(0,0,0,0.5);
+}
+.delegation-poker-rules h4, .delegation-play-steps h4 , #delegationBoard h4{
+color:black;
+}
+.start-delegation{
+  width:60vw;
+  text-align:center;
+}
+.delegation-video{
+  padding:20px;
+}
+.delegation-play-steps li{
+  line-height: 1.5;
+  font-size:14px;
+}
+.board-intro{
+  width:60vw;
+  text-align:center;
+  /* color:rgba(0,0,0,0.5); */
+}

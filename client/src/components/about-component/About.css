@@ -1,0 +1,14 @@
+.about-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:auto;
+  width:100%;
+}
+.about-parts{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   width:80vw;
+}

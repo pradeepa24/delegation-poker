@@ -1,0 +1,122 @@
+.home-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:auto;
+  width:100%;
+}
+.home-sections{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+.home-page-parts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height:40vh;
+  width: 80vw;
+}
+.home-page-parts img{
+  height: 35vh;
+  width: 30vw;
+}
+.explanation,.heading-explanation p{
+  padding:10px;
+  color:rgba(0,0,0,0.5);
+  width: 30vw;
+}
+.home-page-parts div h3{
+  color:black;
+}
+.heading-explanation{
+  width:60vw;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* height:10vh; */
+  padding:10px;
+  line-height: 1.15;
+}
+.heading-explanation p {
+  width:40vw;
+}
+.delegation-cards{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap:wrap;
+  width:80vw;
+  height: 40vh;
+}
+.card-content{
+  height:30vh;
+  width:10vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius:10px;
+  display:flex;
+  flex-direction: column;
+justify-content: space-around;
+align-items:center;
+border:solid 4px white;
+}
+
+.card-content h4{
+  text-align:center;
+  color:white;
+}
+.card-content img{
+  height:8vh;
+  width: 5vw;
+}
+.card-details{
+background-color:white;
+display:flex;
+justify-content: center;
+align-items:center;
+height:5vh;
+width:10vw;
+font-weight:bold;
+}
+.card-details:hover{
+  font-size:20px;
+}
+.card-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 7vh;
+  width:10vw;
+}
+.card-top h4{
+  font-size:20px;
+  font-weight:bold;
+  color:white;
+}
+.one{
+  background-color: rgba(216, 150, 8, 0.986);
+}
+.two{
+  background-color: rgba(187, 15, 9, 0.986);
+}
+.three{
+  background-color: rgba(55, 141, 6, 0.986);
+}
+.four{
+  background-color: rgba(8, 141, 182, 0.986);
+}
+.five{
+  background-color: rgba(9, 34, 179, 0.986);
+}
+.six{
+  background-color: rgba(78, 9, 156, 0.986);
+}
+.seven{
+  background-color: rgba(206, 13, 174, 0.986);
+}

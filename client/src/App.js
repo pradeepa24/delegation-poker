@@ -94,6 +94,9 @@ export default class App extends React.Component  {
           <Link to='/about'><p>About</p></Link>
           <Link to='/login'><p>Login</p></Link>
           </nav>
+          <button className="mobile-menu">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkCt8TtYgWMmoZnuyUufixUgjOyh50tXO6iBfWPz6gGXx4AeHF8A&s" alt="hamburger menu" />
+          </button>
         </header>
         <div className="page-content">
           <Switch >

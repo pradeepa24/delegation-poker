@@ -48,6 +48,9 @@ nav a{
   height:auto;
   width:100%;
 }
+.mobile-menu{
+  display:none;
+}
 /* @media (prefers-reduced-motion: no-preference) { */
   /* .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -64,7 +67,19 @@ nav a{
   font-size: calc(10px + 2vmin);
   color: white;
 } */
-
+@media all and (max-width: 500px) {
+  header nav{
+    display:none;
+  }
+  .mobile-menu{
+    display:block;
+    border:transparent;
+  }
+  .mobile-menu img{
+    height:5vh;
+    width:9vw;
+  }
+}
 
 
 /* @keyframes App-logo-spin {

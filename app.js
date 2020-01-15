@@ -29,7 +29,7 @@ const app = express();
 // Middleware Setup
 app.use(cors({
   credentials: true,
-  origin: ['http://localhost:3000']
+  origin: ['http://localhost:3001']
 }));
 // Express session middleware
   app.use(
